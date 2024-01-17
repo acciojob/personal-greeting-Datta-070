@@ -10,7 +10,6 @@ const App = () => {
   }
   return (
     <div>
-        <p>Enter your Name:</p>
         <input type="text" placeholder="Name" onChange={handleInput}></input>
         <p>{name ? `Hello ${name}!` : ""}</p>
     </div>
